@@ -1,0 +1,16 @@
+{
+  "name": "crypto-random-base-mainnet",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "lint": "echo \"No linter configured\"",
+    "deploy:base": "hardhat run scripts/deploy-base.js --network base"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@chainlink/contracts": "^0.8.0",
+    "hardhat": "^2.22.0"
+  }
+}
